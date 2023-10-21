@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fake Terminal Emulator</title>
+  <title>Terminal</title>
   <style>
     body {
       background-color: transparent;
@@ -69,12 +69,12 @@
 
 <body>
   <div id="terminal">
-    <div>Welcome to DuckOS Terminal Emulator!</div>
+    <div>Welcome to Terminal Emulator!</div>
     <div>If you don't know what to do, type "help" for help :)</div>
     <br>
     <div id="output"></div>
     <div id="input-line">
-      <span>admin@DuckOS: ~/root$ &gt; </span>
+      <span>admin@dbp: ~/root$ &gt; </span>
       <input type="text" id="input" autofocus />
     </div>
   </div>
@@ -178,8 +178,8 @@
 
           case 'neofetch':
             const neofetchResponse = `
-            OS: DuckOS v6
-            Version: 6.2
+            OS: your browser
+            Version: 0.1
             
             dunno what else to put here
           `;
